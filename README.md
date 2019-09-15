@@ -18,11 +18,13 @@ The final overall output will be saved to: final_output.txt
 - lxml
 
 ## Terms of Service:
+ - According to vpap dot org you cannot use their data for commercial use
+ - Review vpap dot org terms of service prior to use
  - Read the code before running and understand what it's doing
- - Follow all applicable internet laws
- - Do NOT spam vpap dot org
- - Keep scraping intervals at a delay as to not spam
- - license is GPLv3
+ - Follow all applicable internet laws and vpap TOS
+ - Do NOT spam vpap dot org, keep scraping intervals at a respectful delay
+ - license for vpap_lens is GPLv3 but that does not include vpap dot org site/data
+ - We are not responsible the use of this tool - use at your own risk
 
 ## Attribution
 Thanks to https://www.vpap.org/
