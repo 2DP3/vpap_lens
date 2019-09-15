@@ -17,6 +17,15 @@ The final overall output will be saved to: final_output.txt
 - requests
 - lxml
 
+## Terms of Service:
+ - Read the code before running and understand what it's doing
+ - Follow all applicable internet laws
+ - Do NOT spam vpap dot org
+ - Keep scraping intervals at a delay as to not spam
+ - license is GPLv3
+
+## Attribution
+Thanks to https://www.vpap.org/
+
 ## vpap dot org Terms of Service:
-There is no mention of prohibiting scraping of content:
 https://www.vpap.org/about-us/terms-of-service/
