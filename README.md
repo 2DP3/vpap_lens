@@ -17,6 +17,13 @@ The final overall output will be saved to: final_output.txt
 - requests
 - lxml
 
+## TODO
+Feel free to contribute / optimize / modify. Below are some things that need to be done:
+ - Clean output (whitespace and newlines (\n))
+ - Perhaps pipe to XML format
+ - Maybe build out some graphing tools
+ - Whatever else you may come up with :)
+
 ## Terms of Service:
  - According to vpap dot org you cannot use their data for commercial use
  - Review vpap dot org terms of service prior to use
