@@ -8,14 +8,20 @@ The goal was to start off by targeting different zip codes and return a list of 
 There are varying use cases for such data - It's unfortunate that the data cannot be accessed via API or data dump (if you do find it please let us know!).
 
 ## How to use
-At the top of the file there is a list of zip codes. Plug in your zip code list there i.e. [22201, 22202, 22203]. Running the program will loop through those zip codes on vpap dot org and return the donor data for those locations.
+At the top of the file there is a list of zip codes. Plug in your zip code list there i.e. [22201, 22202, 22203].
+Running the program (py vpap_lens.py) or (python vpap_lens.py) it will loop through those zip codes on vpap dot org and return the donor data for those locations.
 
-Each page will be saved as: zip_{zipcode}_page_{pagenumber}.txt
-The final overall output will be saved to: final_output.txt
+The final overall output will be saved to: final_output_csv.txt
+
+This can be opened in excel and other workbook programs.
+When opening, the data is TAB delimited.
+
+Output to the screen will update on the URL used, the growing dataset, and the final dataframe output from Pandas.
 
 ## Requirements
 - requests
 - lxml
+- pandas
 
 ## TODO
 Feel free to contribute / optimize / modify. Below are some things that need to be done:
