@@ -47,7 +47,7 @@ for zip in zips:
     total_pages = tree.xpath('//*/a[@class="page-link page"]/text()')
     # print(total_pages[2])
 
-    for paged in range(1, int(total_pages[2]) + 1):
+    for paged in range(2, int(total_pages[2]) + 1):
         sleep(random.randrange(1, 10))
         url = "https://www.vpap.org/" \
               "zipcodes/zcta/{}/donors/" \
